@@ -13,6 +13,7 @@ class TaskList extends React.Component {
                         return (
                             <div key={id} className="task-item-green">                            
                                 <p className="description">{task.description}</p>
+                                <p className="eta"></p>
                             </div>
                         ) 
                     }

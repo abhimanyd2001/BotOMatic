@@ -32,9 +32,11 @@ class App extends React.Component {
     let score = tasks[task_idx].eta;
     console.log(task_idx);
 
+    tasks[task_idx].done = true;
+
 
     if (queue_idx === -1) {
-      queue.push({name: name, type: type});
+      queue.push({name: name, type: type, tasks: tasks});
     }
     else {
       alert("Bot Busy");
@@ -71,6 +73,7 @@ class App extends React.Component {
 
   addTask(name, time) {
     let tasks = this.state.tasks;
+    time = Number(time);
     tasks.push({
       description: name,
       eta: time

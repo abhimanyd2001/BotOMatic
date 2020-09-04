@@ -18,7 +18,7 @@ To the right of the task list, you will find a list of all bots created.  This c
 
 Below this, is the form where the bot is actually created.  You can input the name, select the type from the list, and assign the robot to the task.  As soon as you do this, the time required from the task list will start counting down (in milliseconds).  Once it reaches 0, the task will highlight in a green color.
 
-While a bot is working, if you try to re-assign it to another task you will be greeting with an alert that says you must wait until the bot is finished.  When the bot is finished, to assign the bot to another task you can simply type the name of the bot in the NAME field.  This will recognize if you want to add a new bot or update an existing one.  Here, you can also change the type of the bot and then assign it to another task.
+While a bot is working, if you try to re-assign it to another task you will be greeting with an alert that says you must wait until the bot is finished.  When the bot is finished, to assign the bot to another task you can simply type the name of the bot in the NAME field and assign it to a new task.  This will recognize if you want to add a new bot or update an existing one.  
 
 Below the add bot section, there is an add task section.  This asks you for the task name and the time required for completion.  Once you add the task, you will see it in the left column in the task list.
 
