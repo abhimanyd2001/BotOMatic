@@ -1,3 +1,30 @@
+# Instructions
+This project was created using React.  The ```src``` folder contains the source code that was used to implement this project.
+
+## Installation
+Ensure that your computer (MAC/LINUX/WINDOWS) has **Node.js** and **NPM** installed.  Node.js serves as a JavaScript runtime environment, and NPM is the node package manager.
+
+Then, download or clone the repository.  Open the command line or terminal, and navigate to the directory where you cloned the repo.  Once you navigate inside the project directory, ensure that you see a ```package.json``` file.  Now, run the command ```npm install``` inside your terminal.  This will install all of the dependencies.
+
+## Run App
+After completing the above steps, run ```npm start``` in your terminal (same directory where you ran ```npm install```).  This will start the server on a localhost, and you should be directed to the web application containing Bot-0-Mat!
+
+In case you need to reset the progress of the bot, simply refresh the webpage.
+
+## Features
+After starting the server and navigating to the localhost page, you will be greeted by the interface.  The ;left column contains all of the tasks, along with their times, that you can assign a bot to do.  After a task has been completed by a bot, the task will highlight in a green color and a bot will not be able to choose that task for completion again.
+
+To the right of the task list, you will find a list of all bots created.  This contains their information, namely their name and their type (see below types). 
+
+Below this, is the form where the bot is actually created.  You can input the name, select the type from the list, and assign the robot to the task.  As soon as you do this, the time required from the task list will start counting down (in milliseconds).  Once it reaches 0, the task will highlight in a green color.
+
+While a bot is working, if you try to re-assign it to another task you will be greeting with an alert that says you must wait until the bot is finished.  When the bot is finished, to assign the bot to another task you can simply type the name of the bot in the NAME field.  This will recognize if you want to add a new bot or update an existing one.  Here, you can also change the type of the bot and then assign it to another task.
+
+Below the add bot section, there is an add task section.  This asks you for the task name and the time required for completion.  Once you add the task, you will see it in the left column in the task list.
+
+Lastly, there is a leaderboard of all the bots.  Once you create a bot and assign it to a task, it starts with a score of 0.  Once it finishes the task, its score increases by the amount of milliseconds the task took.  Higher bots are higher on the leaderboard.  
+
+
 # BOT-O-MAT
 Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
 

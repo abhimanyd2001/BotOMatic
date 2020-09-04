@@ -1,0 +1,231 @@
+body {
+  background-color: #333333;
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+}
+
+.minion-logo {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.title {
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin: 2% auto;
+  padding-bottom: 2%;
+}
+
+.appbody-container {
+  display: flex;
+}
+
+.task-list {
+  border: 1px solid red;
+  width: 30%;
+  margin: 3% 10%;
+}
+
+.task-list:hover {
+  border: 1px solid orange;
+}
+
+.task-list h2 {
+  text-align: center;
+  padding-bottom: 8%;
+  border-bottom: 1px solid rgb(189, 182, 182);
+}
+
+
+
+.task-list .task-item {
+  border-bottom: 5px solid rgb(167, 107, 107);
+  border-radius: 5px;
+}
+
+.task-list .task-item:hover {
+  color: #4b4732;
+}
+
+.task-list .task-item-green {
+  background-color: green;
+  text-align: left;
+}
+
+.task-list .task-item-green p {
+  margin: 8%;
+
+  padding-bottom: 10%;
+}
+
+.task-list .task-item p,
+.task-list .task-item-green p {
+  margin-bottom: 5%;
+}
+
+.task-list .task-item .description,
+.task-list .task-item-green .description {
+  font-variant-caps: all-petite-caps;
+  font-size: 30px;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+
+.task-list .task-item .eta,
+.task-list .task-item-green .eta {
+  font-style: oblique;
+  margin-left: 70%;
+}
+
+.minion-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.minions {
+  width: 75%;
+  margin: 3% 10%;
+  border: 1px solid red;
+  margin-top: 8%;
+}
+
+.minions h2 {
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 5%;
+  margin-bottom: 0%;
+}
+
+.minions .minions-item {
+  border-bottom: 1px solid white;
+}
+
+.minions .minions-item p {
+  display: inline-block;
+  margin-left: 60%;
+}
+
+.minions .minions-item .name {
+  font-variant-caps: titling-caps;
+  font-size: 20px;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+.minions-item .type {
+  font-variant-caps: all-small-caps;
+  text-align: right;
+}
+
+.add-minion {
+  width: 600px;
+  height: 500px;
+  margin: 10% auto;
+  margin-bottom: 0%;
+  border: 1px solid black;
+}
+
+.add-minion h3 {
+  border-bottom: 1px solid black;
+  padding-top: 6%;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.minion-form {
+  width: 60%;
+  border: 1px solid rgb(146, 116, 116);
+  border-radius: 15px;
+  margin: 8% auto;
+  text-align: center;
+}
+
+.minion-form label {
+  display: block;
+  padding: 0 0 5px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+  font-size: 11px;
+}
+
+.minion-form input {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 5px;  
+  border: 3px solid #ebe6e2;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.add-task h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.add-task label {
+  margin-bottom: 5%;
+  margin-top: 3%;
+
+}
+
+.leaderboard {
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid red;
+}
+
+.leaderboard h3 {
+  text-align: center;
+  padding-bottom: 5%;
+  border-bottom: 2px solid black;
+}
+
+.leaderboard .bot {
+  text-align: left;
+  font-size: 30px;
+  border-bottom: 1px solid white;
+
+}
+
+.leaderboard .name {
+  margin-left: 1%;
+}
+
+
+.leaderboard .score {
+  font-size: 10px;
+  color: rgb(76, 143, 76);
+  border-left: 1px solid black;
+  margin-left: 85%;
+  padding-left: 1%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
